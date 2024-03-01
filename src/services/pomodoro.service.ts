@@ -1,7 +1,7 @@
 import {
 	IPomodoroSessionResponse,
-	TypePomodoroRoundFormState,
-	TypePomodoroSessionFormState
+	TypePomodoroRoundState as TypePomodoroRoundFormState,
+	TypePomodoroSessionState as TypePomodoroSessionFormState,
 } from '@/types/pomodoro.types'
 
 import { axiosWithAuth } from '@/api/interceptors'
